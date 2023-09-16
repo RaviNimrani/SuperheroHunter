@@ -1,0 +1,112 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
+} */
+body {
+  background-image: url("Marvel-Wallpaper-04-3840-x-2160.jpg");
+  background-size: cover;
+
+  background-repeat: repeat-y;
+}
+/* navbar css */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  opacity: 0.8;
+  position: relative;
+  height: 10vh;
+}
+
+#logotext {
+  position: relative;
+  left: 3%;
+  margin: 0;
+  display: inline-block;
+  color: white;
+  line-height: 10vh;
+  text-decoration: none;
+}
+
+#initial {
+  font-size: 35px;
+}
+
+#resttext {
+  position: relative;
+  top: -0.8vh;
+  font-size: 20px;
+}
+
+/* favourites css */
+#Favourites {
+  line-height: 10vh;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  right: 3%;
+  text-decoration: none;
+}
+
+/* configuring structure of image of superhero */
+
+#imagehero {
+  height: 340px;
+  width: 250px;
+  position: relative;
+  top: 160px;
+  left: 240px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* css of statistics of superhero */
+
+#stats {
+  height: 99vh;
+  width: 40vw;
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  top: -310px;
+  left: 40%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+#stats > span {
+  position: inherit;
+  top: 20px;
+}
+#stats > p {
+  position: inherit;
+  top: 3px;
+  left: 140px;
+  width: 80%;
+}
+
+/* favourites button css */
+
+#atag {
+  position: relative;
+  top: 25px;
+  left: 200px;
+  text-decoration: none;
+  color: white;
+  height: 40px;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+#atag:hover {
+  opacity: 2;
+  background-color: rgb(0, 255, 0);
+}
